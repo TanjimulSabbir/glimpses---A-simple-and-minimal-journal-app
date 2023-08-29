@@ -5,13 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-   
+
     extend: {
       colors: {
         Primary: "#7d8285",
-        Secondary:"#313437",
-        Blue:"#055ada",
-        BtnGray:"#ddd"
+        Secondary: "#313437",
+        Blue: "#055ada",
+        BtnGray: "#ddd",
+        GrayBg: "#F6F6F6"
       },
     },
   },
