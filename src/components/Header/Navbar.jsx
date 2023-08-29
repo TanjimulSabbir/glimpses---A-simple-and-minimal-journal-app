@@ -1,11 +1,14 @@
 import { useState } from "react"
 import { GoTriangleDown } from "react-icons/go"
+import NavLogo from "../../assets/Photos/logo-256x256.png"
+
 export default function Navbar() {
     const [drowDown, setDropDown] = useState(false)
     return (
         <div className="NavbarPadding flex bg-white shadow-md items-center justify-between py-6 text-Primary">
-            <div>
-                <img src="../../assets/Photos/logo-256x256.png" alt="" srcset="" />
+            <div className="flex items-center space-x-1">
+                <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
+                <span className="text-black font-bold">glimpses</span>
             </div>
             <div className="flex space-x-5 items-center">
                 <li>Home</li>
