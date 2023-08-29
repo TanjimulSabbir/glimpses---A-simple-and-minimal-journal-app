@@ -12,15 +12,17 @@ li{
   cursor: pointer;
   transition: all;
 }
-/* .dropdown{
-  left: 0;
-  top: 1rem;
-  padding: .5rem 3rem;
-} */
-.dropdown:hover{
-  background-color: gray;
-  transition-duration: 500ms;
+/* transition duration-300 hover:bg-gray-100 py-1 pl-5 pr-20 */
+.dropdown{
+ padding: .3rem 5rem .3rem 1.4rem;
+  transition: all;
 }
+/* .dropdown:hover{
+  background-color: rgb(194, 192, 192);
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transform-style: preserve-3d;
+} */
 
 /* body{
   font-family: 'Raleway', sans-serif;
