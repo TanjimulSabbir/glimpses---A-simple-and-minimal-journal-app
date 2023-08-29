@@ -1,6 +1,8 @@
 import TopBannerImage from "../../assets/Photos/TopBanner/mockup.png"
 import StripBtn from "../../assets/Photos/TopBanner/powered-by-stripe.png"
 import ProductHunt from "../../assets/Photos/TopBanner/ProductHunt.svg"
+import {PiCurrencyDollarSimpleBold} from "react-icons/pi"
+import {MdOutlineKeyboardDoubleArrowRight} from "react-icons/md"
 
 function TopBanner() {
     return (
@@ -21,13 +23,15 @@ function TopBanner() {
             <div className="text-center flex justify-center">
                 <div>
                     <div>
-                        <div>
-                            <button>Buy glimpses</button>
-                            <button>Learn more</button>
+                        <div className="mb-3 space-x-3 flex items-center">
+                            <button className="Btn bg-Blue Shadow w-[205px] font-bold text-white inline-flex items-center">
+                              <PiCurrencyDollarSimpleBold className="inline-block font-extrabold text-lg"/>  Buy glimpses
+                            </button>
+                            <button className="Btn bg-BtnGray Shadow inline-flex items-center">Learn more <MdOutlineKeyboardDoubleArrowRight className="ml-1"/></button>
                         </div>
-                        <p>BUY NOW ONLY FOR  $12.99</p>
-                        <div>
-                            <img src={StripBtn} alt="" />
+                        <p className="text-[#6c757d] mb-3 text-sm">BUY NOW ONLY FOR  $12.99</p>
+                        <div className="flex justify-center">
+                            <img className="Stripe" src={StripBtn} alt="" />
                         </div>
                     </div>
                     <div>

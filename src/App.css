@@ -1,22 +1,27 @@
-.lora{
+.lora {
   font-family: 'Lora', serif;
 }
-.raleway{
+
+.raleway {
   font-family: 'Raleway', sans-serif;
 }
-.roboto{
+
+.roboto {
   font-family: 'Roboto', sans-serif;
 }
-li{
+
+li {
   list-style: none;
   cursor: pointer;
   transition: all;
 }
+
 /* transition duration-300 hover:bg-gray-100 py-1 pl-5 pr-20 */
-.dropdown{
- padding: .3rem 5rem .3rem 1.4rem;
+.dropdown {
+  padding: .3rem 5rem .3rem 1.4rem;
   transition: all;
 }
+
 /* .dropdown:hover{
   background-color: rgb(194, 192, 192);
   transition-duration: 500ms;
@@ -27,3 +32,35 @@ li{
 /* body{
   font-family: 'Raleway', sans-serif;
 } */
+.Shadow {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.Btn {
+  width: 180px;
+  height: 42px;
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: .9;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .4px;
+  line-height: 1;
+  outline: 0;
+}
+
+.Stripe {
+  width: 119px;
+  aspect-ratio: auto 119 / 26;
+  height: 26px;
+}
+
+.ProductHunt {
+  width: 250px;
+  height: 54px;
+}
