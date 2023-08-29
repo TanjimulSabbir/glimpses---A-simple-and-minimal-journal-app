@@ -7,3 +7,21 @@
 .roboto{
   font-family: 'Roboto', sans-serif;
 }
+li{
+  list-style: none;
+  cursor: pointer;
+  transition: all;
+}
+/* .dropdown{
+  left: 0;
+  top: 1rem;
+  padding: .5rem 3rem;
+} */
+.dropdown:hover{
+  background-color: gray;
+  transition-duration: 500ms;
+}
+
+/* body{
+  font-family: 'Raleway', sans-serif;
+} */

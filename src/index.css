@@ -8,3 +8,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .UniversalPadding {
+      @apply px-4 sm:px-6 md:px-10 lg:px-14 xl:px-20;
+    }
+  }
