@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className="NavbarPadding md:flex bg-white shadow-md items-center justify-between py-4 text-Primary">
-            
+
             {/* Large Device */}
             <div className="hidden md:flex items-center pl-7">
                 <div className="relative">
@@ -32,7 +32,7 @@ export default function Navbar() {
             </div>
 
             {/* Menu */}
-            <div className={`${NavbarOPen ? "block" : "hidden"} mt-2 ml-4 md:mt-0 md:ml-0`}>
+            <div className={`${NavbarOPen ? "block" : "hidden"} md:block mt-2 ml-4 md:mt-0 md:ml-0`}>
                 <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 md:items-center pr-14 ">
                     <li>Home</li>
                     <li>Features</li>
