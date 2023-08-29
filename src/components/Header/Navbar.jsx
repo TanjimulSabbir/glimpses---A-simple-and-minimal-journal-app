@@ -1,12 +1,16 @@
 import { useState } from "react"
 import { GoTriangleDown } from "react-icons/go"
-import { MdOutlineMenu } from "react-icons/md"
+import { FcMenu } from "react-icons/fc"
 import NavLogo from "../../assets/Photos/logo-256x256.png"
 
 export default function Navbar() {
-    const [drowDown, setDropDown] = useState(false)
+    const [drowDown, setDropDown] = useState(false);
+    const [NavbarOPen, setNavBarOpen] = useState(false)
+    const dropDonwStyle = "dropdown transition duration-300 hover:bg-gray-100";
+
     return (
-        <div className="NavbarPadding flex bg-white shadow-md items-center justify-between py-4 text-Primary">
+        <div className="NavbarPadding md:flex bg-white shadow-md items-center justify-between py-4 text-Primary">
+
             <div className="hidden md:flex items-center pl-7">
                 <div className="relative">
                     <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
@@ -14,7 +18,18 @@ export default function Navbar() {
                 <span className="text-black text-xl text-center font-bold leading-relaxed tracking-wide ">glimpses</span>
             </div>
 
-            <div className="mt-14 ml-4 md:mt-0 md:ml-0">
+            {/* Small Device */}
+            <div className={``}>
+                <div className="flex items-center justify-between">
+                    <div className="relative">
+                        <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
+                    </div>
+                    <p className="text-black text-xl text-center font-bold leading-relaxed tracking-wide">glimpses</p>
+                    <p onClick={() => setNavBarOpen(!NavbarOPen)} className={`cursor-pointer mr-4`}> <FcMenu className="text-3xl text-black " /></p>
+                </div>
+            </div>
+
+            <div className={`${NavbarOPen ? "block" : "hidden"}  mt-14 ml-4 md:mt-0 md:ml-0`}>
                 <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 md:items-center pr-14 ">
                     <li>Home</li>
                     <li>Features</li>
@@ -28,23 +43,14 @@ export default function Navbar() {
                         </p>
                         {/* DropwDown Menut */}
                         <div className={`${drowDown ? "block" : "hidden"} absolute top-8 border rounded py-2 bg-white -left-1 text-black`}>
-                            <li className="dropdown transition duration-300 hover:bg-gray-100">Contact</li>
-                            <li className="dropdown transition duration-300 hover:bg-gray-100">Help</li>
+                            <li className={dropDonwStyle}>Contact</li>
+                            <li className={dropDonwStyle}>Help</li>
                         </div>
                     </li>
                     <li>Blog</li>
                 </div>
             </div>
-            {/* Small Device */}
-            <div className="absolute top-4 inset-0 px-4 md:hidden">
-                <div className="flex items-center justify-between relative">
-                    <div className="relative">
-                        <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
-                    </div>
-                    <p className="text-black text-xl text-center font-bold leading-relaxed tracking-wide">glimpses</p>
-                    <MdOutlineMenu className="text-3xl text-black mr-2"/>
-                </div>
-            </div>
+
         </div>
     )
 }
