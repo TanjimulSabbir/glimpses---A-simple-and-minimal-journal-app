@@ -6,7 +6,7 @@ function TopBanner() {
     return (
         <div className="bg-white raleway mt-16">
             {/* Top */}
-            <div className="text-center">
+            <div className="text-center mb-3">
                 <h1 className="text-[50px] font-extrabold lora mb-6">Capture your memories</h1>
                 <p className="text-[22px] text-Primary">
                     Start writing your thoughts and memories <br />
@@ -14,8 +14,8 @@ function TopBanner() {
                 </p>
             </div>
             {/* Image */}
-            <div>
-                <img src={TopBannerImage} alt="mockup.png" />
+            <div className="w-3/4 h-full mx-auto">
+                <img className="max-w-full" src={TopBannerImage} alt="mockup.png" />
             </div>
             {/* Bottom segment */}
             <div className="text-center flex justify-center">
