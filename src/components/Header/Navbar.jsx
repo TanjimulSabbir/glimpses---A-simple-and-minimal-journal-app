@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { GoTriangleDown } from "react-icons/go"
-import { FcMenu } from "react-icons/fc"
+import { SlMenu } from "react-icons/sl"
 import NavLogo from "../../assets/Photos/logo-256x256.png"
 
 export default function Navbar() {
@@ -19,17 +19,19 @@ export default function Navbar() {
             </div>
 
             {/* Small Device */}
-            <div className={``}>
-                <div className="flex items-center justify-between">
-                    <div className="relative">
-                        <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
-                    </div>
-                    <p className="text-black text-xl text-center font-bold leading-relaxed tracking-wide">glimpses</p>
-                    <p onClick={() => setNavBarOpen(!NavbarOPen)} className={`cursor-pointer mr-4`}> <FcMenu className="text-3xl text-black " /></p>
+
+            <div className="flex items-center justify-between px-4 md:hidden">
+                <div>
+                    <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
                 </div>
+
+                <p className="text-black text-xl text-center font-bold leading-relaxed tracking-wide">glimpses</p>
+
+                <p onClick={() => setNavBarOpen(!NavbarOPen)} className={`cursor-pointer mr-5 border border-gray-300 px-4 py-2 rounded focus-visible:border-black`}> <SlMenu className="text-2xl text-black" /></p>
             </div>
 
-            <div className={`${NavbarOPen ? "block" : "hidden"}  mt-14 ml-4 md:mt-0 md:ml-0`}>
+            {/* Menu */}
+            <div className={`${NavbarOPen ? "block" : "hidden"} mt-2 ml-4 md:mt-0 md:ml-0`}>
                 <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 md:items-center pr-14 ">
                     <li>Home</li>
                     <li>Features</li>
@@ -42,7 +44,7 @@ export default function Navbar() {
                             <GoTriangleDown className="text-black" />
                         </p>
                         {/* DropwDown Menut */}
-                        <div className={`${drowDown ? "block" : "hidden"} absolute top-8 border rounded py-2 bg-white -left-1 text-black`}>
+                        <div className={`${drowDown ? "block" : "hidden"} md:absolute mt-4 md:mt-0 top-8 border rounded py-2 bg-white -left-1 text-black`}>
                             <li className={dropDonwStyle}>Contact</li>
                             <li className={dropDonwStyle}>Help</li>
                         </div>
