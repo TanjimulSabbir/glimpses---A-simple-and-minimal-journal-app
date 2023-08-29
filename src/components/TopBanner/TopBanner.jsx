@@ -5,8 +5,10 @@ function TopBanner() {
             {/* Top */}
             <div className="text-center">
                 <h1>Capture your memories</h1>
-                <p>Start writing your thoughts and memories
-                    and have them synced and backed up in the Dropbox cloud</p>
+                <p className="w-1/3 mx-auto text-center">
+                    Start writing your thoughts and memories
+                    and have them synced and backed up in the Dropbox cloud
+                </p>
             </div>
             {/* Image */}
             <div>
@@ -14,7 +16,8 @@ function TopBanner() {
             </div>
             {/* Botton */}
             <div>
-
+                <div></div>
+                <div></div>
             </div>
         </div>
     )
