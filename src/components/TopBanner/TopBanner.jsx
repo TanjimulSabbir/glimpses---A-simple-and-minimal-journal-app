@@ -24,18 +24,18 @@ function TopBanner() {
                 <div>
                     <div>
                         <div className="mb-3 space-x-3 flex items-center">
-                            <button className="Btn bg-Blue Shadow w-[205px] font-bold text-white inline-flex items-center">
+                            <button className="Btn bg-Blue Shadow w-[205px] font-bold text-white inline-flex items-center justify-center">
                               <PiCurrencyDollarSimpleBold className="inline-block font-extrabold text-lg"/>  Buy glimpses
                             </button>
-                            <button className="Btn bg-BtnGray Shadow inline-flex items-center">Learn more <MdOutlineKeyboardDoubleArrowRight className="ml-1"/></button>
+                            <button className="Btn bg-BtnGray Shadow inline-flex items-center justify-center">Learn more <MdOutlineKeyboardDoubleArrowRight className="ml-1"/></button>
                         </div>
-                        <p className="text-[#6c757d] mb-3 text-sm">BUY NOW ONLY FOR  $12.99</p>
+                        <p className="text-[#6c757d] mb-3 text-xs">BUY NOW ONLY FOR  $12.99</p>
                         <div className="flex justify-center">
                             <img className="Stripe" src={StripBtn} alt="" />
                         </div>
                     </div>
-                    <div>
-                        <img src={ProductHunt} alt="" />
+                    <div className="mt-14 flex items-center justify-center">
+                        <img className="ProductHunt" src={ProductHunt} alt="" />
                     </div>
                 </div>
             </div>
