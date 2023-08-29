@@ -6,7 +6,7 @@ import {MdOutlineKeyboardDoubleArrowRight} from "react-icons/md"
 
 function TopBanner() {
     return (
-        <div className="bg-white raleway mt-16">
+        <div className="bg-white raleway mt-16 mb-8">
             {/* Top */}
             <div className="text-center mb-3">
                 <h1 className="text-[50px] font-extrabold lora mb-6">Capture your memories</h1>
