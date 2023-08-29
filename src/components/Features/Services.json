@@ -6,29 +6,29 @@
             "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
         },
         {
-            "leaf": "FaLeaf",
-            "name": "Simple",
-            "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
+            "leaf": "FaLock",
+            "name": "Secure",
+            "description": "Data is stored in your personal Dropbox cloud, which is encrypted by default. And there are no glimpses servers in the chain."
         },
         {
-            "leaf": "FaLeaf",
-            "name": "Simple",
-            "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
+            "leaf": "FaAnchor",
+            "name": "Focus",
+            "description": "A distraction-free writing mode that focuses just on your words."
         },
         {
-            "leaf": "FaLeaf",
-            "name": "Simple",
-            "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
+            "leaf": "FaCalendarAlt",
+            "name": "Organized",
+            "description": "Organize your journal entries with tags & re-discover the past with calendar."
         },
         {
-            "leaf": "FaLeaf",
-            "name": "Simple",
-            "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
+            "leaf": "FaDropbox",
+            "name": "Dropbox",
+            "description": "All your glimpses journal entries will be stored and in sync with your Dropbox account.."
         },
         {
-            "leaf": "FaLeaf",
-            "name": "Simple",
-            "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
+            "leaf": "FaPaperPlane",
+            "name": "Native",
+            "description": "glimpses journal is built natively for the Windows."
         }
     ]
 }
