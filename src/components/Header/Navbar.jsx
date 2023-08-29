@@ -6,7 +6,7 @@ export default function Navbar() {
     const [drowDown, setDropDown] = useState(false)
     return (
         <div className="NavbarPadding flex bg-white shadow-md items-center justify-between py-4 text-Primary">
-            <div className="flex items-center pl-6">
+            <div className="flex items-center pl-7">
                 <div className="relative">
                     <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
                 </div>
