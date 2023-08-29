@@ -1,4 +1,7 @@
-import TopBannerImage from "../../assets/Photos/mockup.png"
+import TopBannerImage from "../../assets/Photos/TopBanner/mockup.png"
+import StripBtn from "../../assets/Photos/TopBanner/powered-by-stripe.png"
+import ProductHunt from "../../assets/Photos/TopBanner/ProductHunt.svg"
+
 function TopBanner() {
     return (
         <div className="bg-white">
@@ -14,10 +17,23 @@ function TopBanner() {
             <div>
                 <img src={TopBannerImage} alt="mockup.png" />
             </div>
-            {/* Botton */}
-            <div>
-                <div></div>
-                <div></div>
+            {/* Bottom segment */}
+            <div className="text-center flex justify-center">
+                <div>
+                    <div>
+                        <div>
+                            <button>Buy glimpses</button>
+                            <button>Learn more</button>
+                        </div>
+                        <p>BUY NOW ONLY FOR  $12.99</p>
+                        <div>
+                            <img src={StripBtn} alt="" />
+                        </div>
+                    </div>
+                    <div>
+                        <img src={ProductHunt} alt="" />
+                    </div>
+                </div>
             </div>
         </div>
     )
