@@ -10,7 +10,8 @@ export default function Navbar() {
 
     return (
         <div className="NavbarPadding md:flex bg-white shadow-md items-center justify-between py-4 text-Primary">
-
+            
+            {/* Large Device */}
             <div className="hidden md:flex items-center pl-7">
                 <div className="relative">
                     <img className="w-11 h-11" src={NavLogo} alt="glimpses" />
@@ -52,7 +53,6 @@ export default function Navbar() {
                     <li>Blog</li>
                 </div>
             </div>
-
         </div>
     )
 }
