@@ -11,6 +11,6 @@
 
 @layer components {
     .NavbarPadding {
-      @apply px-4 sm:px-6 md:px-8 lg:px-10 xl:px-14;
+      /* @apply pr-4 sm:pr-6 md:px-8 lg:pr-14 xl:pr-12; */
     }
   }
