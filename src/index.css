@@ -1,1 +1,10 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Lora */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
