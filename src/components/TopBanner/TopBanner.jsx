@@ -4,12 +4,12 @@ import ProductHunt from "../../assets/Photos/TopBanner/ProductHunt.svg"
 
 function TopBanner() {
     return (
-        <div className="bg-white">
+        <div className="bg-white raleway mt-16">
             {/* Top */}
             <div className="text-center">
-                <h1>Capture your memories</h1>
-                <p className="w-1/3 mx-auto text-center">
-                    Start writing your thoughts and memories
+                <h1 className="text-[50px] font-extrabold lora mb-6">Capture your memories</h1>
+                <p className="text-[22px] text-Primary">
+                    Start writing your thoughts and memories <br />
                     and have them synced and backed up in the Dropbox cloud
                 </p>
             </div>
