@@ -9,7 +9,7 @@ export default function Navbar() {
     const dropDonwStyle = "dropdown transition duration-300 hover:bg-gray-100";
 
     return (
-        <div className="fixed w-full top-0">
+        <div className="fixed w-full top-0 z-50">
             <div className="NavbarPadding md:flex bg-white shadow-md items-center justify-between py-4 text-Primary relative">
                 {/* Large Device */}
                 <div className="hidden md:flex items-center pl-7">
