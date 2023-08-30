@@ -14,14 +14,14 @@ function TopBanner() {
             <div className="UniversalPadding bg-white raleway mt-36 mb-8">
                 {/* Top */}
                 <div className="text-center mb-3">
-                    <h1 className="text-[50px] font-extrabold lora mb-6">Capture your memories</h1>
+                    <h1 className="text-[50px] font-extrabold lora mb-6 leading-tight">Capture your memories</h1>
                     <p className="text-[22px] text-Primary">
                         Start writing your thoughts and memories <br />
                         and have them synced and backed up in the Dropbox cloud
                     </p>
                 </div>
                 {/* Image */}
-                <div className="w-3/4 h-full mx-auto">
+                <div className="lg:w-3/4 h-full mx-auto">
                     <img className="max-w-full" src={TopBannerImage} alt="mockup.png" />
                 </div>
                 {/* Bottom segment */}
@@ -36,7 +36,7 @@ function TopBanner() {
                                 </button>
                             </div>
 
-                            <p className="text-[#6c757d] my-3 text-xs">BUY NOW ONLY FOR  $12.99</p>
+                            <p className="text-[#6c757d] my-3 text-xs">BUY NOW ONLY FOR  <span className="font-bold">$12.99</span></p>
 
                             <div className="flex justify-center">
                                 <img className="Stripe" src={StripBtn} alt="" />
