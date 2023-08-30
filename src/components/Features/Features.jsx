@@ -12,8 +12,8 @@ function Features() {
                     Minimalist design, privacy-focused with high performance is been the key mantra for glimpses journal app in its journey in the last 4 years.
                 </p>
             </div>
-            <div className="text-[#FFCB00]">
-                <Services Icons={Icons} />
+            <div className="">
+                <Services />
             </div>
         </div>
     )

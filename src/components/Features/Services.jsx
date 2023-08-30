@@ -13,14 +13,14 @@ const iconComponents = {
 
 function Services() {
     return (
-        <div>
+        <div className='grid grid-cols-3 gap-10'>
             {ServicesData.Services.map((service, index) => {
                 const { icon, name, description } = service;
                 const IconComponent = iconComponents[icon]; // Get the corresponding icon component
                 return (
-                    <div key={index} className='flex flex-col'>
+                    <div key={index} className='flex flex-col space-x-3'>
                         <div>
-                            <IconComponent />
+                            <IconComponent className="text-[#FFCB00] w-5 h-5" />
                         </div>
                         <div className=''>
                             <h3 className='text-lg text-Secondary font-bold mb-3 lora'>{name}</h3>
