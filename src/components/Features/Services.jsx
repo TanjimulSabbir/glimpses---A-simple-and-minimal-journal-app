@@ -13,18 +13,18 @@ const iconComponents = {
 
 function Services() {
     return (
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='Container grid grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-10'>
             {ServicesData.Services.map((service, index) => {
                 const { icon, name, description } = service;
                 const IconComponent = iconComponents[icon]; // Get the corresponding icon component
                 return (
-                    <div key={index} className='flex flex-col space-x-3'>
+                    <div key={index} className='flex space-x-4 justify-center'>
                         <div>
-                            <IconComponent className="text-[#FFCB00] w-5 h-5" />
+                            <IconComponent className="text-[#FFCB00] text-5xl" />
                         </div>
-                        <div className=''>
-                            <h3 className='text-lg text-Secondary font-bold mb-3 lora'>{name}</h3>
-                            <p className='text-Primary raleway'>{description}</p>
+                        <div className='-mt-2'>
+                            <h3 className='text-xl text-Secondary font-bold mb-3'>{name}</h3>
+                            <p className='text-Primary'>{description}</p>
                         </div>
                     </div>
                 );
