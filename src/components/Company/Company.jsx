@@ -5,14 +5,14 @@ import thetimesnews from "../../assets/Photos/Company/thetimesnews.png";
 function Company() {
     const Companies = [microsoft, zapier, matelogo, thetimesnews]
     return (
-        <div className="my-12 w-full max-w-5xl mx-auto">
-            <div className="flex items-center justify-between text-black">
+        <div className="UniversalPadding my-12 w-full max-w-5xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-between space-y-16 md:space-y-0 text-black">
                 {
                     Companies.map((company, index) => {
                         console.log(company)
                         return (
                             <div key={index} className={`${index >= 2 ? "w-52" : "w-28"}`}>
-                                <img className="w-full h-full" src={company} alt={company} />
+                           <a href={`${company}`}><img className="w-full h-full" src={company} alt={company} /></a>
                             </div>
                         )
                     })

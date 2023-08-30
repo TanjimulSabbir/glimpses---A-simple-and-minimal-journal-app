@@ -14,3 +14,8 @@
       /* @apply pr-4 sm:pr-6 md:px-8 lg:pr-14 xl:pr-12; */
     }
   }
+@layer components {
+    .UniversalPadding {
+      @apply px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20;
+    }
+  }

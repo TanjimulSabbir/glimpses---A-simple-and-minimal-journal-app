@@ -1,7 +1,7 @@
 
 function Contact() {
     return (
-        <div className="py-14">
+        <div className="UniversalPadding py-14">
             <div className="text-center mb-10">
                 <h1 className="text-2xl font-extrabold lora mb-8">Join our mailing list to stay up to date</h1>
                 <p className="text-Primary text-center">
