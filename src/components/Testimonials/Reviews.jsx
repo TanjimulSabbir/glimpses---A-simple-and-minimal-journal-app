@@ -2,7 +2,7 @@ import ALlReviews from "./Reviews.json";
 import './Reviews.css'
 function Reviews() {
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-evenly gap-9 raleway'>
+        <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-evenly gap-8 raleway'>
             {
                 ALlReviews.Reviews.map(review => {
                     const { description, name, img, title } = review
