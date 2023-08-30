@@ -1,8 +1,10 @@
+import Social from "./Social"
 
 
 function Info() {
     return (
         <div className="flex items-center justify-between">
+            <Social/>
             <div>
                 <h1 className="mb-2 text-Secondary font-bold">Product</h1>
                 <div className="text-sm text-[#4b4c4d]">
