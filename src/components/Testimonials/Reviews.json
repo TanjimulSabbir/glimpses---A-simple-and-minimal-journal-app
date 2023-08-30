@@ -1,0 +1,40 @@
+{
+    "Reviews": [
+        {
+            "description": "Been trying glimpses journal app. Loved the minimalist design & easy use.",
+            "img": "https://i.ibb.co/5BVjcFG/twitter1.jpg",
+            "name": "Rami Sarieddine",
+            "title": "@RamieSays"
+        },
+        {
+            "description": "Just stumbled upon glimpses a journaling app with a clean UI for Windows. Really satisfied what I need. Awesome work",
+            "img": "https://i.ibb.co/wN5nH1m/twtitter2.png",
+            "name": "Joeylene Rivera",
+            "title": "@jorenrui"
+        },
+        {
+            "description": "Best way to bring my thoughts to text. Love  this app.",
+            "img": "https://i.ibb.co/QFrMDvS/twitter3.jpg",
+            "name": "Andreas",
+            "title": "@dieserandreas"
+        },
+        {
+            "description": "just converted a lot of my physical journal into glimpses and its working amazingly. Can't wait for the ios App",
+            "img": "https://i.ibb.co/wCXkTx1/ab-img-brew-com.jpg",
+            "name": "Alden Brown",
+            "title": "buymeacoffee"
+        },
+        {
+            "description": "Glimpses is great. I wish I'd have stumbled onto it before I blew my money on a Microsoft store app that crashes when I try to do the one thing I bought it for. Using glimpses seems more intuitive anyway.",
+            "img": "https://i.ibb.co/vsfxzJK/wc-img-brew-com.jpg",
+            "name": "Wimpy Checkers",
+            "title": "buymeacoffee"
+        },
+        {
+            "description": "Please know that your work is important for a lot of us. Keep up the amazing journal app!",
+            "img": "https://i.ibb.co/nrhktby/img-brew-com.jpg",
+            "name": "Martin",
+            "title": "buymeacoffee"
+        }
+    ]
+}
