@@ -13,7 +13,7 @@ const iconComponents = {
 
 function Services() {
     return (
-        <div className='Container grid grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8'>
+        <div className='Container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  max-w-6xl mx-auto gap-8'>
             {ServicesData.Services.map((service, index) => {
                 const { icon, name, description } = service;
                 const IconComponent = iconComponents[icon]; // Get the corresponding icon component
