@@ -1,18 +1,16 @@
-import { FiGithub, FiLinkedin, FiFacebook } from 'react-icons/fi';
-import { CiTwitter } from 'react-icons/ci';
-import { GrInstagram, GrMedium, GrYoutube } from 'react-icons/gr';
+import { FiFacebook } from 'react-icons/fi';
+import { GrFacebook, GrInstagram, GrTwitter, GrYoutube } from 'react-icons/gr';
 function Footer() {
     return (
-        <div>
-            <div>
-                <div className='flex justify-center items-center flex-row mid-lg:flex-col space-x-8 mid-lg:space-x-0 mid-lg:space-y-8'>
-                <a className='list-none text-xl text-white' href="/#"><CiTwitter /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><FiLinkedin /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><FiFacebook /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><GrYoutube /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><GrInstagram /> </a>
+        <div className='py-10 raleway'>
+            <div className='space-y-2'>
+                <div className='flex items-center flex-row space-x-3'>
+                    <a className='list-none text-xl text-Secondary border p-3 rounded-full text-center border-gray-300' href="/#"><GrTwitter /> </a>
+                    <a className='list-none text-xl text-Secondary border p-3 rounded-full text-center border-gray-300' href="/#"><FiFacebook /> </a>
+                    <a className='list-none text-xl text-Secondary border p-3 rounded-full text-center border-gray-300' href="/#"><GrYoutube /> </a>
+                    <a className='list-none text-xl text-Secondary border p-3 rounded-full text-center border-gray-300' href="/#"><GrInstagram /> </a>
                 </div>
-                <p>©2016-2023 <a href="/">Tanjimul Sabbir</a></p>
+                <p className='text-sm text-Primary'>©2016-2023 <a href="/">Tanjimul Sabbir</a></p>
             </div>
         </div>
     )
