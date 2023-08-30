@@ -5,11 +5,15 @@ import { PiCurrencyDollarSimpleBold } from "react-icons/pi"
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md"
 
 function TopBanner() {
+    const Btn1 = "Btn bg-Blue Shadow w-[205px] font-bold text-white inline-flex items-center justify-center"
+    const Btn2 = "Btn bg-BtnGray Shadow inline-flex items-center justify-center";
+    const Btn1Icon = <> <PiCurrencyDollarSimpleBold className="inline-block font-extrabold text-lg" /></>;
+    const Btn2Icon = <> <MdOutlineKeyboardDoubleArrowRight className="ml-1" /></>
     return (
         <div data-aos="fade-up" data-aos-duration="2000">
             <div className="UniversalPadding bg-white raleway mt-36 mb-8">
                 {/* Top */}
-                <div  className="text-center mb-3">
+                <div className="text-center mb-3">
                     <h1 className="text-[50px] font-extrabold lora mb-6">Capture your memories</h1>
                     <p className="text-[22px] text-Primary">
                         Start writing your thoughts and memories <br />
@@ -21,16 +25,19 @@ function TopBanner() {
                     <img className="max-w-full" src={TopBannerImage} alt="mockup.png" />
                 </div>
                 {/* Bottom segment */}
-                <div className="text-center flex justify-center">
+                <div className="text-center md:flex justify-center">
                     <div>
-                        <div>
-                            <div className="mb-3 space-x-3 flex items-center">
-                                <button className="Btn bg-Blue Shadow w-[205px] font-bold text-white inline-flex items-center justify-center">
-                                    <PiCurrencyDollarSimpleBold className="inline-block font-extrabold text-lg" />  Buy glimpses
+                        <div className="flex items-center flex-col">
+                            <div className="mb-3 md:space-x-3 space-y-3 md:space-y-0 flex flex-col md:flex-row items-center justify-center">
+                                <button className={Btn1}>
+                                    {Btn1Icon}  Buy glimpses
                                 </button>
-                                <button className="Btn bg-BtnGray Shadow inline-flex items-center justify-center">Learn more <MdOutlineKeyboardDoubleArrowRight className="ml-1" /></button>
+                                <button className={Btn2}>Learn more {Btn2Icon}
+                                </button>
                             </div>
-                            <p className="text-[#6c757d] mb-3 text-xs">BUY NOW ONLY FOR  $12.99</p>
+
+                            <p className="text-[#6c757d] my-3 text-xs">BUY NOW ONLY FOR  $12.99</p>
+
                             <div className="flex justify-center">
                                 <img className="Stripe" src={StripBtn} alt="" />
                             </div>
