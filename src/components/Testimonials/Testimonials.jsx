@@ -1,7 +1,7 @@
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="my-24">
 
     </div>
   )
