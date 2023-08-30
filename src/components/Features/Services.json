@@ -1,32 +1,32 @@
 {
     "Services": [
         {
-            "leaf": "FaLeaf",
+          "icon": "FaLeaf",
             "name": "Simple",
             "description": "glimpses journal offers simple & intuitive interface which render it easy to start with."
         },
         {
-            "leaf": "FaLock",
+          "icon": "FaLock",
             "name": "Secure",
             "description": "Data is stored in your personal Dropbox cloud, which is encrypted by default. And there are no glimpses servers in the chain."
         },
         {
-            "leaf": "FaAnchor",
+          "icon": "FaAnchor",
             "name": "Focus",
             "description": "A distraction-free writing mode that focuses just on your words."
         },
         {
-            "leaf": "FaCalendarAlt",
+          "icon": "FaCalendarAlt",
             "name": "Organized",
             "description": "Organize your journal entries with tags & re-discover the past with calendar."
         },
         {
-            "leaf": "FaDropbox",
+          "icon": "FaDropbox",
             "name": "Dropbox",
             "description": "All your glimpses journal entries will be stored and in sync with your Dropbox account.."
         },
         {
-            "leaf": "FaPaperPlane",
+          "icon": "FaPaperPlane",
             "name": "Native",
             "description": "glimpses journal is built natively for the Windows."
         }
