@@ -1,22 +1,23 @@
 import ALlReviews from "./Reviews.json"
 function Reviews() {
     return (
-        <div className='flex items-center justify-evenly ralewaye'>
+        <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-evenly gap-9 raleway'>
             {
                 ALlReviews.Reviews.map(review => {
+                    const { description, name, img, title } = review
                     return (
                         <div key={review.name}>
-                            <div className='bg-white shadow rounded p-8'>
-                                <h1>Been trying glimpses journal app. Loved the minimalist design & easy use.</h1>
+                            <div className='bg-white shadow-sm rounded p-6 text-Primary'>
+                                <h1>{description}</h1>
                             </div>
                             <div className='flex space-x-3 items-center mt-5 ml-10'>
                                 <div className='rounded-full'>
                                     {/* <p className='h-10 w-10 bg-white'></p> */}
-                                    <img className='w-10 h-10 rounded-full' src="https://getglimpses.com/assets/img/twitter3.jpg" alt="" />
+                                    <img className='w-10 h-10 rounded-full' src={img} alt="review profile image" />
                                 </div>
                                 <div className=''>
-                                    <h2 className='text-xl text-Secondary font-bold mb-[2px]'>Rami Sarieddine</h2>
-                                    <p className='text-xs text-Primary'>@RamieSays</p>
+                                    <h2 className='text-xl text-Secondary font-bold mb-[2px]'>{name}</h2>
+                                    <p className='text-xs text-Primary'>{title}</p>
                                 </div>
                             </div>
                         </div>
