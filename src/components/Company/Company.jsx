@@ -1,16 +1,17 @@
-import microsoft from "../../assets/Photos/Company/ms-logo-gray.svg";
+import microsoft from "../../assets/Photos/Company/microsoft.svg";
 import zapier from "../../assets/Photos/Company/zapier.png";
 import matelogo from "../../assets/Photos/Company/mtelogo.svg";
 import thetimesnews from "../../assets/Photos/Company/thetimesnews.png";
 function Company() {
-    const Companies = [microsoft, zapier, matelogo, thetimesnews]
+    const Companies = ["https://getglimpses.com/assets/img/ms-logo-gray.svg", zapier, matelogo, thetimesnews]
     return (
         <div className="my-14">
-            <div>
+            <div className="flex items-center justify-evenly text-black">
                 {
                     Companies.map((company, index) => {
+                        console.log(company)
                         return (
-                            <div key={index}>
+                            <div key={index} className="max-w-[200px]">
                                 <img src={company} alt={company} />
                             </div>
                         )
