@@ -11,14 +11,15 @@ function Reviews() {
                             <div className='bg-white shadow-sm rounded p-6 text-Primary'>
                                 <h1>{description}</h1>
                             </div>
-                            <div className='flex space-x-3 items-center ml-10'>
-                                <div className='rounded-full'>
-                                <div className="triangle-down"></div>
+                            <div className="triangle-down ml-10"></div>
+                            <div className='flex space-x-3 items-center ml-10 mt-1'>
+                                <div>
                                     <img className='w-10 h-10 rounded-full' src={img} alt="review profile image" />
                                 </div>
                                 <div className=''>
                                     <h2 className='text-xl text-Secondary font-bold mb-[2px]'>{name}</h2>
                                     <p className='text-xs text-Primary'>{title}</p>
+
                                 </div>
                             </div>
                         </div>

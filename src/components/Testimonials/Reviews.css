@@ -1,9 +1,8 @@
 .triangle-down {
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 10px solid white;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 15px solid white;
     position: relative;
-    margin: 0 auto;
   }
