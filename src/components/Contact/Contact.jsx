@@ -5,8 +5,8 @@ function Contact() {
             <div className="UniversalPadding py-14">
                 <div className="text-center mb-10">
                     <h1 className="text-2xl font-extrabold lora mb-8">Join our mailing list to stay up to date</h1>
-                    <p className="text-Primary text-center">
-                        Be the first to hear about the latest product releases & other exclusive  <br /> content. Don't worry, we'll never flood your inbox
+                    <p className="text-Primary text-center text-sm md:text-base">
+                        Be the first to hear about the latest product releases & other exclusive  <br className=" hidden md:block" /> content. Don't worry, we'll never flood your inbox
                     </p>
                 </div>
                 <div className="w-full max-w-6xl mx-auto flex justify-center">
