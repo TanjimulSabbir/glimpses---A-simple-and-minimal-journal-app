@@ -1,4 +1,5 @@
-import ALlReviews from "./Reviews.json"
+import ALlReviews from "./Reviews.json";
+import './Reviews.css'
 function Reviews() {
     return (
         <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-evenly gap-9 raleway'>
@@ -10,9 +11,9 @@ function Reviews() {
                             <div className='bg-white shadow-sm rounded p-6 text-Primary'>
                                 <h1>{description}</h1>
                             </div>
-                            <div className='flex space-x-3 items-center mt-5 ml-10'>
+                            <div className='flex space-x-3 items-center ml-10'>
                                 <div className='rounded-full'>
-                                    {/* <p className='h-10 w-10 bg-white'></p> */}
+                                <div className="triangle-down"></div>
                                     <img className='w-10 h-10 rounded-full' src={img} alt="review profile image" />
                                 </div>
                                 <div className=''>
