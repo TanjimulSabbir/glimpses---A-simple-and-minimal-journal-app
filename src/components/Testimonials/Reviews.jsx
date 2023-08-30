@@ -3,27 +3,19 @@ import React from 'react'
 function Reviews() {
     return (
         <div>
-            <figure className="md:flex bg-GrayBg rounded-xl p-8 md:p-0">
-                {/* <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" 
-                src="/sarah-dayan.jpg" alt="" width="384" height="512"> */}
-                    <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-                        <blockquote>
-                            <p className="text-lg font-medium">
-                                “Tailwind CSS is the only framework that I've seen scale
-                                on large teams. It’s easy to customize, adapts to any design,
-                                and the build size is tiny.”
-                            </p>
-                        </blockquote>
-                        <figcaption className="font-medium">
-                            <div className="text-sky-500 dark:text-sky-400">
-                                Sarah Dayan
-                            </div>
-                            <div className="text-slate-700 dark:text-slate-500">
-                                Staff Engineer, Algolia
-                            </div>
-                        </figcaption>
-                    </div>
-            </figure>
+            <div className='flex items-center justify-evenly bg-white shadow rounded p-8'>
+                <h1>Been trying glimpses journal app. Loved the minimalist design & easy use.</h1>
+            </div>
+            <div className='flex space-x-2 items-center'>
+                <div className='rounded-full'>
+                    {/* <p className='h-10 w-10 bg-white'></p> */}
+                    <img className='w-10 h-10' src="https://getglimpses.com/assets/img/twitter3.jpg" alt="" />
+                </div>
+                <div>
+                    <h2>Rami Sarieddine</h2>
+                    <p>@RamieSays</p>
+                </div>
+            </div>
         </div>
     )
 }
