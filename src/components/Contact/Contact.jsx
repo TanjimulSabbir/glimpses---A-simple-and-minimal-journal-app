@@ -12,7 +12,7 @@ function Contact() {
                 <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row space-y-3 md:space-y-0 md:justify-center">
                     <form>
                         <input className="py-3 bg-gray-100 rounded px-3 w-64 placeholder:pl-1 placeholder:text-Primary" type="email" placeholder="Your Email" />
-                        <button className="text-white text-sm uppercase ml-3 rounded py-3 px-6 font-bold  bg-Blue">Subscribe</button>
+                        <button className="text-white text-sm uppercase md:ml-3 rounded py-3 px-6 font-bold  bg-Blue">Subscribe</button>
                     </form>
                 </div>
             </div>
