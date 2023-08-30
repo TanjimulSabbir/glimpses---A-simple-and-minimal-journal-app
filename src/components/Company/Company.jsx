@@ -11,7 +11,7 @@ function Company() {
                     Companies.map((company, index) => {
                         console.log(company)
                         return (
-                            <div key={index} className={`${index >= 2 ? "w-60" : "w-24"}`}>
+                            <div key={index} className={`${index >= 2 ? "w-52" : "w-28"}`}>
                                 <img className="w-full h-full" src={company} alt={company} />
                             </div>
                         )
