@@ -3,7 +3,7 @@ import Social from "./Social"
 
 function Info() {
     return (
-        <div className="flex-1 flex items-center justify-around">
+        <div className="flex-1 flex items-center justify-between md:justify-around">
 
             <div>
                 <h1 className="mb-4 text-Secondary font-bold">Product</h1>
