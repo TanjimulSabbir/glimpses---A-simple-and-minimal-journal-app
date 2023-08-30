@@ -8,25 +8,25 @@ function Info() {
             <div>
                 <h1 className="mb-2 text-Secondary font-bold">Product</h1>
                 <div className="text-sm text-Primary">
-                    <li>About</li>
-                    <li>Features</li>
-                    <li>F.A.Q</li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">F.A.Q</a></li>
                 </div>
             </div>
             <div>
                 <h1 className="mb-2 text-Secondary font-bold">Support</h1>
                 <div className="text-sm text-Primary">
-                    <li>Contact</li>
-                    <li>Community</li>
-                    <li>Blog</li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Blog</a></li>
                 </div>
             </div>
             <div>
                 <h1 className="mb-2 text-Secondary font-bold">More</h1>
                 <div className="text-sm text-Primary">
-                    <li>Term and Policy</li>
-                    <li>Privacy Policy</li>
-                    <li>GDPR Policy</li>
+                    <li><a href="">Term and Policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">GDPR Policy</a></li>
                 </div>
             </div>
 

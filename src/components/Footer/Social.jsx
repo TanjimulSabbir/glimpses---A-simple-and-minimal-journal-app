@@ -11,7 +11,7 @@ function Social() {
                 <a className={iconStyle} href="/#"><GrYoutube /> </a>
                 <a className={iconStyle} href="/#"><GrInstagram /> </a>
             </div>
-            <p className='text-sm text-Primary'>©2016-2023 <a className='text-teal-500' href="/">Tanjimul Islam Sabbir</a></p>
+            <p className='text-sm text-Primary'>©2016-2023 <a className='text-green-500' href="/">Tanjimul Sabbir</a></p>
         </div>
     )
 }
