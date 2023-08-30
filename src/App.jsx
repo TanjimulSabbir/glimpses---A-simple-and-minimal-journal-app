@@ -10,13 +10,13 @@ import TopBanner from './components/TopBanner/TopBanner'
 function App() {
   return (
     <>
-      <Navbar/>
-      <TopBanner/>
-      <Features/>
-      <Company/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <TopBanner />
+      <Features />
+      <Company />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   )
 }
