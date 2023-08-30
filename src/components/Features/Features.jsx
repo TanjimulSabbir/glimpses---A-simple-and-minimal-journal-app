@@ -1,8 +1,9 @@
 import { FaLeaf, FaLock, FaAnchor, FaCalendarAlt, FaDropbox, FaPaperPlane } from "react-icons/fa";
+import Services from "./Services";
 
 
 function Features() {
-    const Icons = [FaLeaf, FaLock, FaAnchor, FaCalendarAlt, FaDropbox, FaPaperPlane];
+    const Icons = { FaLeaf, FaLock, FaAnchor, FaCalendarAlt, FaDropbox, FaPaperPlane };
     return (
         <div className="bg-GrayBg raleway">
             <div className="text-center py-8 FeatureIntro">
@@ -12,7 +13,7 @@ function Features() {
                 </p>
             </div>
             <div className="text-[#FFCB00]">
-
+                <Services Icons={Icons} />
             </div>
         </div>
     )
