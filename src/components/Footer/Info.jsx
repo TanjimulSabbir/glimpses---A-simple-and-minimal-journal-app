@@ -22,7 +22,7 @@ function Info() {
             </div>
             <div>
                 <h1 className="mb-3 text-Secondary font-bold">More</h1>
-                <div className="text-sm text-Primary space-y-1">
+                <div className="text-xs text-Primary space-y-1">
                     <li><a href="">Term and Policy</a></li>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">GDPR Policy</a></li>
